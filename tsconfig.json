@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,  
+    "paths": { "*": ["types/*"] },
+    "target": "es6",                     
+    "module": "commonjs",                     
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],                                                   
+    "jsx": "react-native",                           
+    "declaration": true,                      
+    "sourceMap": true,                       
+    "strict": true,                           
+    "strictNullChecks": true,                
+     "noUnusedLocals": true,                
+     "noUnusedParameters": true,           
+     "noImplicitReturns": true,            
+     "noFallthroughCasesInSwitch": true,    
+     "moduleResolution": "node",           
+     "baseUrl": "src",                      
+     "rootDirs": ["src"],                      
+     "esModuleInterop": true,               
+     "experimentalDecorators": true,      
+     "emitDecoratorMetadata": true,
+     "noEmit": true,   
+     "preserveSymlinks": true,  
+     "types": ["react", "react-native"],
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.setup.js"]
+}
